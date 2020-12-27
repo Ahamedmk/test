@@ -1,0 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+section { 
+   background-image:linear-gradient(to right, transparent, mistyrose), url("plage.jpg");
+   height: 95vh;
+   clip-path: polygon(0 15%, 100% 0, 100% 83%, 0 100%);
+}
+
+div.foundi {
+   /*font-size: 2em;*/
+   font: bold 1.4em Arial, Helvetica, sans-serif;
+   color: white;
+   width: 510px;
+   text-align: start;
+   letter-spacing: 0.8em;
+   border: 2px solid rgb(97, 95, 95);
+  position: relative;
+  left: 450px;
+  top: 200px;
+}
+
+div.metier {
+   font: bold 0.8em Arial, Helvetica, sans-serif;
+   width: 380px;
+   background-color: black;
+   color: white;
+   text-align: start;
+   letter-spacing: 0.9em;
+   border:0 solid;
+  position: relative;
+  left: 500px;
+  top: 220px;
+}
